@@ -42,8 +42,7 @@ def find_min_value(array)
  end 
  p lowest_number
 end
-  
-end
+
 
 array = [2, 6,43, 4,-76, 1]
 find_max_value(array)
