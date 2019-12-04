@@ -8,7 +8,7 @@ def find_max_value(array)
  counter = 0
  highest_number = 0
  while counter < array.length
-    if highest_number > array[counter]
+    if highest_number < array[counter]
       highest_number = array[counter]
      else
       highest_number = highest_number
