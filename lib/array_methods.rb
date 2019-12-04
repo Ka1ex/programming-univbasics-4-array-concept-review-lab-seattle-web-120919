@@ -30,7 +30,7 @@ end
 def find_min_value(array)
   # Add your solution here
    counter = 0
- lowest_number = 0
+ lowest_number = 100
  while counter < array.length
     if lowest_number > array[counter]
       lowest_number = array[counter]
