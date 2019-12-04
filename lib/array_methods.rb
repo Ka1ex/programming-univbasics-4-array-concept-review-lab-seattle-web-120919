@@ -40,7 +40,7 @@ def find_min_value(array)
   end
   counter += 1
  end 
- p highest_number
+ p lowest_number
 end
   
 end
